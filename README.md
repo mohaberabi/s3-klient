@@ -45,7 +45,6 @@ Add AWS SDK dependencies to the `Podfile`:
 target 'iosApp' do
   use_frameworks!
   
-  pod 'S3Klient' # Your KMP Library
   pod 'AWSS3', '2.31.0'  # ✅ Add AWS S3 SDK
   pod 'AWSCore', '2.31.0'  # ✅ Add AWS Core SDK
 end
