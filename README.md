@@ -25,12 +25,6 @@ commonMain.dependencies {
 }
 ```
 
-#### **Enable CocoaPods in `build.gradle.kts` (shared module)**
-
-```kotlin
-
-```
-
 ### **2️⃣ iOS Client App Setup**
 
 Since S3Klient uses **CocoaPods AWS SDK**, the client **must also include AWS dependencies**.
