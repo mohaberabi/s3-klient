@@ -28,15 +28,7 @@ commonMain.dependencies {
 #### **Enable CocoaPods in `build.gradle.kts` (shared module)**
 
 ```kotlin
-cocoapods {
-    summary = "AWS S3 Client for Kotlin Multiplatform"
-    homepage = "https://github.com/mohaberabi/s3klient"
-    version = "1.0"
-    ios.deploymentTarget = "15.4"
 
-    pod("AWSS3") { version = "2.31.0" }
-    pod("AWSCore") { version = "2.31.0" }
-}
 ```
 
 ### **2️⃣ iOS Client App Setup**
