@@ -21,7 +21,7 @@ uploads. using each platform native sdk from Amazon
 
 ```kotlin
 commonMain.dependencies {
-    implementation("io.github.mohaberabi.s3klient:s3klient:0.0.1")
+   implementation("io.github.mohaberabi:s3-klient:0.0.1")
 }
 ```
 
